@@ -7,7 +7,7 @@
 		public $user	= "root";
 		public $pass	= 'iyasmzn7';
 		public $db 		= "latihan_OOP_CRUD";
-		public $connect = "";
+		public $connect;
 
 // menghubungkan ke database
 		public function __construct(){

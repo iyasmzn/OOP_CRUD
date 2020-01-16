@@ -14,7 +14,7 @@ $data 	= $db->show_data();
 	<title></title>
 </head>
 <body>
- <a href="Add.php">Add User</a>
+ <a href="add.php">Add User</a>
  <table border="1">
  	<tr>
  		<th>No</th>
@@ -32,7 +32,7 @@ $data 	= $db->show_data();
  		<td><?= $data_user['name']; ?></td>
  		<td><?= $data_user['email']; ?></td>
  		<td>
- 			<a href="Edit.php?id=<?= $data_user['id']; ?>action=edit">Edit</a>
+ 			<a href="edit.php?id=<?= $data_user['id']; ?>action=edit">Edit</a>
  			<a href="config/Process.php?id=<?= $data_user['id']; ?>&action=delete" onclick="javascript:return confirm('Are you sure want to delete this user?')">Delete</a>
  		</td>
  	</tr>
