@@ -1,7 +1,7 @@
 <?php 
 require __DIR__. '/config/Database.php';
 
-use projectOOP\Database;
+use CRUD_OOP\Database;
 
 // include 'Database.php';
 

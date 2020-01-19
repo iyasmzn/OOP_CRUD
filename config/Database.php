@@ -1,5 +1,5 @@
 <?php 
-	namespace projectOOP;
+	namespace CRUD_OOP;
 
 	class Database 
 	{
@@ -14,9 +14,9 @@
 			$this->connect = mysqli_connect($this->server, $this->user, $this->pass, $this->db);
 
 			// if($connect){
-			// 	echo "You're connected";
+			// 	echo "You're success to connect";
 			// } else {
-			// 	echo "Failed to connecting";
+			// 	echo "Failed to connect";
 			// }
 
 			if(mysqli_connect_error()){

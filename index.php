@@ -1,7 +1,7 @@
 <?php 
 require __DIR__. '/config/Database.php';
 
-use projectOOP\Database;
+use CRUD_OOP\Database;
 
 // include 'Database.php';
 
@@ -32,7 +32,7 @@ $data 	= $db->show_data();
  		<td><?= $data_user['name']; ?></td>
  		<td><?= $data_user['email']; ?></td>
  		<td>
- 			<a href="edit.php?id=<?= $data_user['id']; ?>action=edit">Edit</a>
+ 			<a href="edit.php?id=<?= $data_user['id']; ?>">Edit</a>
  			<a href="config/Process.php?id=<?= $data_user['id']; ?>&action=delete" onclick="javascript:return confirm('Are you sure want to delete this user?')">Delete</a>
  		</td>
  	</tr>
